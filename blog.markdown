@@ -1,5 +1,5 @@
 ---
 layout: archives
 title: Blog
-permalink: /blog/
+permalink: blog.html
 ---
