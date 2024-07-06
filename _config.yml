@@ -146,7 +146,7 @@ defaults:
   home:
     heading: "HELLO WORLD!"
     subheading: "Welcome to my blog, find information about my projects and research!"
-    banner: "./assets/images/banners/main-banner.jpg"
+    banner: "/assets/images/banners/main-banner.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
