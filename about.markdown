@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About The_Runner_01
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Chris, a versatile creator, seamlessly blends analog and digital technologies, weaving together a rich tapestry of innovation. 
+His expertise spans multiple programming languages, including C++, C, and PHP. 
+Beyond software, he wields essential web tools—HTML, CSS, and JavaScript—with finesse.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+His true magic lies in his ability to transform components into cool inventions. 
+Armed with C++, he breathes life into Raspberry Pi, Arduino, and STM32 boards, crafting functional and imaginative projects. 
+As he continues to explore the world of electronics, Chris’s passion for learning propels him forward.
 
-
-[jekyll-organization]: https://github.com/jekyll
+As a music creator, he loves playing around with effects and ambience for captivating results and uses his guitar with
+various effects to develop interesting sounds.
