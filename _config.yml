@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     fascinating music.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.therunner.digital" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "./assets/images/document.png"
+favicon: "/assets/images/document.png"
 twitter_username: jekyllrb
 github_username:  jekyll
 mastodon_username:  https://universeodon.com/@therunner01
