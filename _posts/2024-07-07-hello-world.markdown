@@ -5,7 +5,7 @@ subtitle: Introduction - First blog post
 author: The_Runner_Digital
 categories: various
 banner:
-  image: "/assets/images/banners/helloworld-picture.png"
+  image: "/assets/images/banners/helloworld-picture.jpg"
   opacity: 1
   background: "#000"
   height: "100vh"
