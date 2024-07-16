@@ -16,8 +16,6 @@ top: 1
 sidebar: []
 ---
 
-# Rebuild Back Better
-## Progress Report 1
 ### Upgrade Buttons
 
 Upgrades are a very important feature for any clicker game that exists. They give a sense of acomplishment and progress during gameplay.
