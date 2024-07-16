@@ -210,29 +210,29 @@ Upgrades::Upgrades( std::string defaultImageButtonLocation, std::string hoveredI
 										initialY,
 										150);
 										
-	upgradeFighters = new UpgradeButton(	defaultImageButtonLocation,
-											hoveredImageButtonLocation,
-											clickedImageButtonLocation,
-											getRenderer,
-											initialX + gap * 2,
-											initialY,
-											150);
+	upgradeFighters = new UpgradeButton(   defaultImageButtonLocation,
+								           hoveredImageButtonLocation,
+								           clickedImageButtonLocation,
+								           getRenderer,
+								           initialX + gap * 2,
+								           initialY,
+								           150);
 											
-	upgradeWorkers = new UpgradeButton(	defaultImageButtonLocation,
-										hoveredImageButtonLocation,
-										clickedImageButtonLocation,
-										getRenderer,
-										initialX + gap * 3,
-										initialY,
-										150);
+	upgradeWorkers = new UpgradeButton( defaultImageButtonLocation,
+								        hoveredImageButtonLocation,
+								        clickedImageButtonLocation,
+								        getRenderer,
+								        initialX + gap * 3,
+								        initialY,
+								        150);
 										
-	upgradeCursor = new UpgradeButton(	defaultImageButtonLocation,
-										hoveredImageButtonLocation,
-										clickedImageButtonLocation,
-										getRenderer,
-										initialX + gap * 4,
-										initialY,
-										150);									
+	upgradeCursor = new UpgradeButton( defaultImageButtonLocation,
+								        hoveredImageButtonLocation,
+								        clickedImageButtonLocation,
+								        getRenderer,
+								        initialX + gap * 4,
+								        initialY,
+								        150);									
 														
 }
 
@@ -269,15 +269,15 @@ public:
 
 **gameplay.cpp**
 ```cpp
-upgrades = new Upgrades(	defaultUpgradedButtonImageLocation, 
-							hoveredUpgradeButtonImageLocation,
-							clickedUpgradeButtonImageLocation,
-							windowWidth,
-							windowHeight,
-							static_cast<float>(windowWidth * 0.22),
-							static_cast<float>(windowHeight * 0.9),
-							200,
-							getRenderer	);
+upgrades = new Upgrades(    defaultUpgradedButtonImageLocation, 
+				            hoveredUpgradeButtonImageLocation,
+				            clickedUpgradeButtonImageLocation,
+				            windowWidth,
+				            windowHeight,
+				            static_cast<float>(windowWidth * 0.22),
+				            static_cast<float>(windowHeight * 0.9),
+				            200,
+				            getRenderer	);
 ```
 
 The only thing, is to update the gameplay class on the main file to instantiate the upgrade buttons:
@@ -286,19 +286,19 @@ The only thing, is to update the gameplay class on the main file to instantiate 
 
 ```cpp
 std::string generateBackgroundImagePath = Game::execpath + std::string("/Contents/Resources/graphics/enviroment/Game_Enviroment_Alternative_Sky.jpg");
-							std::string generateMenuSfxPath = Game::execpath + std::string("/Contents/Resources/audio/menulightup/lightup.wav");
-							std::string generateUpgradeButtonDefaultPath = Game::execpath + std::string("/Contents/Resources/graphics/interface/UpgradeButton.png");
-							std::string generateUpgradeButtonClickedPath = Game::execpath + std::string("/Contents/Resources/graphics/interface/UpgradeButtonClicked.png");
-							std::string generateUpgradeButtonHoveredPath = Game::execpath + std::string("/Contents/Resources/graphics/interface/UpgradeButtonLightUp.png");
-							Game::gameplay = new Gameplay(	generateFont2Path,
-															generateBackgroundImagePath,
-															generateMenuSfxPath,
-															Game::windowWidth,
-															Game::windowHeight, 
-															Game::renderer,
-															generateUpgradeButtonDefaultPath,
-															generateUpgradeButtonHoveredPath,
-															generateUpgradeButtonClickedPath	);
+std::string generateMenuSfxPath = Game::execpath + std::string("/Contents/Resources/audio/menulightup/lightup.wav");
+std::string generateUpgradeButtonDefaultPath = Game::execpath + std::string("/Contents/Resources/graphics/interface/UpgradeButton.png");
+std::string generateUpgradeButtonClickedPath = Game::execpath + std::string("/Contents/Resources/graphics/interface/UpgradeButtonClicked.png");
+std::string generateUpgradeButtonHoveredPath = Game::execpath + std::string("/Contents/Resources/graphics/interface/UpgradeButtonLightUp.png");
+Game::gameplay = new Gameplay(	generateFont2Path,
+                                generateBackgroundImagePath,
+                                generateMenuSfxPath,
+                                Game::windowWidth,
+                                Game::windowHeight, 
+                                Game::renderer,
+                                generateUpgradeButtonDefaultPath,
+                                generateUpgradeButtonHoveredPath,
+                                generateUpgradeButtonClickedPath	);
 											
 ```
 
