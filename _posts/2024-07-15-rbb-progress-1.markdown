@@ -300,6 +300,6 @@ Game::gameplay = new Gameplay(	generateFont2Path,
 											
 ```
 
-# Result
+## Result
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iyMon8DLn7s?si=jBXILl0VN4LO-n7u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
