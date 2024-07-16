@@ -40,7 +40,7 @@ private:
 	SDL_Renderer *renderer;
 
 public:
-	UpgradeButton(	std::string defaultImageLocation, std::string hoveredImageLocation,
+	UpgradeButton(  std::string defaultImageLocation, std::string hoveredImageLocation,
 					std::string clickedImageLocation, SDL_Renderer *getRenderer, 
 					int _x, int _y, int _maxVerticalMovement);
 					
@@ -66,17 +66,17 @@ bool UpgradeButton::IsButtonHovered(int getMouseX, int getMouseY)
 	return false;
 }
 
-UpgradeButton::UpgradeButton(	std::string defaultImageLocation, std::string hoveredImageLocation,
-								std::string clickedImageLocation, SDL_Renderer *getRenderer, 
-								int _x, int _y, int _maxVerticalMovement)
+UpgradeButton::UpgradeButton(   std::string defaultImageLocation, std::string hoveredImageLocation,
+				                std::string clickedImageLocation, SDL_Renderer *getRenderer, 
+				                int _x, int _y, int _maxVerticalMovement)
 {
 	renderer = getRenderer;
-	auto loadDefaultImage = std::async(	std::launch::async, IMG_Load, 
-										defaultImageLocation.c_str());
-	auto loadHoveredImage = std::async( std::launch::async, IMG_Load,
-										hoveredImageLocation.c_str());
-	auto loadClickedImage = std::async(	std::launch::async, IMG_Load,
-										clickedImageLocation.c_str());
+	auto loadDefaultImage = std::async(    std::launch::async, IMG_Load, 
+								            defaultImageLocation.c_str());
+	auto loadHoveredImage = std::async(    std::launch::async, IMG_Load,
+								            hoveredImageLocation.c_str());
+	auto loadClickedImage = std::async(    std::launch::async, IMG_Load,
+								            clickedImageLocation.c_str());
 										
 	loadDefaultImage.wait();
 	loadHoveredImage.wait();
@@ -105,14 +105,14 @@ void UpgradeButton::DisplayButton(int mouseX, int mouseY, bool isButtonClicked)
 	
 	if (isButtonClicked)
 	{
-		convertedImage = SDL_ConvertSurface(	upgradeButtonImageDefault,
-												upgradeButtonImageDefault->format);
+		convertedImage = SDL_ConvertSurface(  upgradeButtonImageDefault,
+								              upgradeButtonImageDefault->format);
 							
 	}
 	else if (IsButtonHovered(mouseX, mouseY))
 	{
-		convertedImage = SDL_ConvertSurface(	upgradeButtonImageHovered,
-												upgradeButtonImageHovered->format);
+		convertedImage = SDL_ConvertSurface(  upgradeButtonImageHovered,
+								              upgradeButtonImageHovered->format);
 		
 		if (verticalPOS < maxVerticalMovement)
 		{
@@ -121,16 +121,16 @@ void UpgradeButton::DisplayButton(int mouseX, int mouseY, bool isButtonClicked)
 	}
 	else
 	{
-		convertedImage = SDL_ConvertSurface(	upgradeButtonImageDefault,
-												upgradeButtonImageDefault->format);
+		convertedImage = SDL_ConvertSurface(  upgradeButtonImageDefault,
+								              upgradeButtonImageDefault->format);
 		verticalPOS = 0;
 	}
 	
 	SDL_Texture *buttonImageTexture = SDL_CreateTextureFromSurface(renderer, convertedImage);
-	const SDL_FRect buttonImageHolder = {	static_cast<float>(x),
-											static_cast<float>(y) - verticalPOS,
-											static_cast<float>(convertedImage->w),
-											static_cast<float>(convertedImage->h)};
+	const SDL_FRect buttonImageHolder = {  static_cast<float>(x),
+								           static_cast<float>(y) - verticalPOS,
+								           static_cast<float>(convertedImage->w),
+								           static_cast<float>(convertedImage->h)};
 											
 	width = convertedImage->w;
 	height = convertedImage->h;		
@@ -162,9 +162,9 @@ some type of tag.
 class Upgrades{
 	
 public:
-	Upgrades(	std::string defaultImageButtonLocation, std::string hoveredImageButtonLocation,
-				std::string clickedImageButtonLocation, int getWindowWidth, int getWindowHeight,
-				float initialX, float initialY, float gap, SDL_Renderer *getRenderer);
+	Upgrades(  std::string defaultImageButtonLocation, std::string hoveredImageButtonLocation,
+               std::string clickedImageButtonLocation, int getWindowWidth, int getWindowHeight,
+               float initialX, float initialY, float gap, SDL_Renderer *getRenderer);
 				
 	~Upgrades();
 	void ShowUpgradeButtons(int _x, int _y, bool _isClicked);
@@ -190,17 +190,17 @@ UpgradeButton *Upgrades::upgradeCursor = nullptr;
 UpgradeButton *Upgrades::upgradeFighters = nullptr;
 UpgradeButton *Upgrades::upgradeWorkers = nullptr;
 
-Upgrades::Upgrades(	std::string defaultImageButtonLocation, std::string hoveredImageButtonLocation,
-					std::string clickedImageButtonLocation, int getWindowWidth, int getWindowHeight,
-					float initialX, float initialY, float gap, SDL_Renderer *getRenderer)
+Upgrades::Upgrades( std::string defaultImageButtonLocation, std::string hoveredImageButtonLocation,
+				    std::string clickedImageButtonLocation, int getWindowWidth, int getWindowHeight,
+				    float initialX, float initialY, float gap, SDL_Renderer *getRenderer)
 {
 	summonFighters = new UpgradeButton(	defaultImageButtonLocation, 
-										hoveredImageButtonLocation,
-										clickedImageButtonLocation,
-										getRenderer,
-										initialX,
-										initialY,
-										150);
+								        hoveredImageButtonLocation,
+								        clickedImageButtonLocation,
+								        getRenderer,
+								        initialX,
+								        initialY,
+								        150);
 	
 	summonWorkers = new UpgradeButton(	defaultImageButtonLocation,
 										hoveredImageButtonLocation,
