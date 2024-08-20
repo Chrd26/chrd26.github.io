@@ -11,7 +11,7 @@ banner:
     min_height: "38vh"
     heading_style: "font-size: 4.25em; font-weight:bold;"
     subheading_style: "color: white"
-tags: rbb progress-report
+tags: jumping-ball progress-report
 top: 1
 sidebar: []
 ---
