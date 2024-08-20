@@ -39,12 +39,12 @@ copy "$(SolutionDir)fonts\Montserrat-VariableFont_wght.ttf" "$(TargetDir)/Resour
 **It is important to note that the copy command does not create any directories. Any directories must 
 be created before the copy commands are executed. Otherwise errors will occur.**
 
-![This is a screenshot of Visual Studio showing how the shell commands have been set up in the post-build event option.](/assets/images/jumping-ball-screenshot-for-blog-1.png)
+![This is a screenshot of Visual Studio showing how the shell commands have been set up in the post-build event option.](/assets/images/jumping-ball-screenshot-for-blog-2.png)
 
 To let the program know where to find the library files, I needed to update the **Additional Library Directories** 
 with the **Resources/Libs** directory.
 
-![This is a screenshot of Visual Studio showing the updated additional library option with the new directory.](/assets/images/jumping-ball-screenshot-for-blog-2.png)
+![This is a screenshot of Visual Studio showing the updated additional library option with the new directory.](/assets/images/jumping-ball-screenshot-for-blog-1.png)
 
 The files are copied to their corresponding directories as soon as the build is compelte.
 
