@@ -18,14 +18,14 @@ sidebar: []
 
 ## Working on MacOS and Windows Versions
 
-I updated the MacOS version with the new code that I added on the Windows version. This 
-should fix any potential memory problems. On the Windows side, I added post-build events to
-move all the important files to the build folder. This is the first step of creating an executable 
-that can be ran everywhere.
+I updated the MacOS source to code use char arrays instead of char* to fix memory problems.
+On the Windows side, I created post-build event commands to copy library files and assets to the 
+build folder and updated the additional library location option in the project properties.
 
-To set up post-build events is very simple. First, we open the project properties and then we click the
-**Build Events** option to find a list of the event types. For the project I am currently 
-working, I added the following shell commands to the **Post-Build Event's** command line option.
+Setting up post-build events was very easy.
+
+1. Opened the project properties and then we click the **Build Events** option to find a list of the event types.
+2. Added following shell commands to the **Post-Build Event's** command option.
 
 ```shell
 copy "$(SolutionDir)SDL3.dll" "$(TargetDir)"
@@ -36,21 +36,17 @@ copy "$(SolutionDir)liblocated.lib" "$(TargetDir)/Resources/Libs"
 copy "$(SolutionDir)SDL3_ttf.lib" "$(TargetDir)/Resources/Libs"
 copy "$(SolutionDir)fonts\Montserrat-VariableFont_wght.ttf" "$(TargetDir)/Resources/Fonts"
 ```
-**It is important to note that the folders need to already exist because the copy command won't 
-create them and an error will occur.**
-
-The commands copy the **.dll** to the target directory, the **.lib** files to **Resources/libs**, and 
-the **font** to **Resources/Fonts**.
+**It is important to note that the copy command does not create any directories. Any directories must 
+be created before the copy commands are executed. Otherwise errors will occur.**
 
 ![This is a screenshot of Visual Studio showing how the shell commands have been set up in the post-build event option.](/assets/images/jumping-ball-screenshot-for-blog-1.png)
 
-The application also, needs to find the library files in that are being copied to the **Resources/Libs** directory.
-This was pretty easy. The only thing I had to do is add the directory to the **Additional Library Directories** in the 
-**Project Properties**.
+To let the program know where to find the library files, I needed to update the **Additional Library Directories** 
+with the **Resources/Libs** directory.
 
 ![This is a screenshot of Visual Studio showing the updated additional library option with the new directory.](/assets/images/jumping-ball-screenshot-for-blog-2.png)
 
-Now, all the improtant files are being copied to the target directory move it wherever I want.
+The files are copied to their corresponding directories as soon as the build is compelte.
 
 ![This is a screenshot of the Windows file explorer that shows all the files neatly placed in the target directory](/assets/images/jumping-ball-screenshot-for-blog-3.png)
 
