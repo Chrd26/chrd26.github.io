@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jumping Ball
-subtitle: Progress Report 2
+subtitle: Progress Report 3
 categories: jumping-ball devlog
 banner:
     image: "/assets/images/banners/Jumping_Ball.jpg"
