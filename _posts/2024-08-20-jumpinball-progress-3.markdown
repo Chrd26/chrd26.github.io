@@ -46,7 +46,7 @@ with the **Resources/Libs** directory.
 
 ![This is a screenshot of Visual Studio showing the updated additional library option with the new directory.](/assets/images/jumping-ball-screenshot-for-blog-1.png)
 
-The files are copied to their corresponding directories as soon as the build is compelte.
+The files are copied to their corresponding directories as soon as the build is complete.
 
 ![This is a screenshot of the Windows file explorer that shows all the files neatly placed in the target directory](/assets/images/jumping-ball-screenshot-for-blog-3.png)
 
