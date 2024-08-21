@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Factfulness - Ten Reasons We're Wrong About by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund
+title: Factfulness: Ten Reasons We're Wrong About and Why Things Are Better Than You Think by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund
 subtitle: Book Review, 1st read
 categories: jumping-ball devlog
 banner:
