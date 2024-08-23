@@ -2,7 +2,7 @@
 layout: post
 title: Myth of Normal by Dr. Gabor Maté
 subtitle: Book Review, 1st read
-categories: jumping-ball devlog
+categories: book-review
 banner:
     image: "/assets/images/banners/myth-of-normal-greek-edition.jpeg"
     opacity: 1
