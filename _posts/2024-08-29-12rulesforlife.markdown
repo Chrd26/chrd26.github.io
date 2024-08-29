@@ -4,7 +4,7 @@ title: 12 Rules for Life: An Antidote to Chaos by Jordan B. Peterson
 subtitle: Book review, 2nd read
 categories: book-review
 banner:
-    image: "/assets/images/banners/factfulness-photo-book.jpg"
+    image: "/assets/images/banners/12rulesforlife.jpg"
     opacity: 1
     background: "#000"
     height: "100vh"
