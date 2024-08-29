@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Myth of Normal by Dr. Gabor Maté
-subtitle: Book Review, 1st read
+subtitle: Book review, 1st read
 categories: book-review
 banner:
     image: "/assets/images/banners/myth-of-normal-greek-edition.jpeg"
@@ -11,7 +11,7 @@ banner:
     min_height: "38vh"
     heading_style: "font-size: 4.25em; font-weight:bold;"
     subheading_style: "color: white"
-tags: rbb progress-report
+tags: books review 
 top: 1
 sidebar: []
 ---
