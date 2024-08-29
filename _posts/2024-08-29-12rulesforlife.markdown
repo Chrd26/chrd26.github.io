@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 12 Rules for Life: An Antidote to Chaos by Jordan B. Peterson
+title: 12 Rules for Life An Antidote to Chaos by Jordan B. Peterson
 subtitle: Book review, 2nd read
 categories: book-review
 banner:
