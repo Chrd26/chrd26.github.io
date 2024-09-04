@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Myth of Normal by Dr. Gabor Maté
+title: Myth of Normal
 subtitle: Book review, 1st read
 categories: book-review
 banner:
@@ -15,8 +15,9 @@ tags: books review
 top: 1
 sidebar: []
 ---
+# Myth of Normal by Dr. Gabor Maté
 
-The "Myth of Normal" is a book written by Dr. Gabor Maté. The book presents a research on how trauma and stress have long term effects on both mental and physical health. The appearance of autoimmune illnesses, cancer, and ADHD have perceptibly risen affecting a significant portion of the population and medical scientists have been unable to discover the cause
+The book presents a research on how trauma and stress have long term effects on both mental and physical health. The appearance of autoimmune illnesses, cancer, and ADHD have perceptibly risen affecting a significant portion of the population and medical scientists have been unable to discover the cause
 
 The stress and toxicity of modern times have affected negatively the quality of life of a significant portion of the population. Dr. Gabor Maté interviews people who have been affected by terribly ailments and still have managed to recuperate themselves to the surprise of their physicians. 
 

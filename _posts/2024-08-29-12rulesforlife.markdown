@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 12 Rules for Life An Antidote to Chaos by Jordan B. Peterson
+title: 12 Rules for Life An Antidote to Chaos
 subtitle: Book review, 2nd read
 categories: book-review
 banner:
@@ -16,7 +16,8 @@ top: 1
 sidebar: []
 ---
 
-12 Rules for Life: An Antidote to Chaos is a book written by the famous clinical psychologist Jordan B. Peterson. 
+# 12 Rules for Lofe: An antitode to Chaos by Jordan B. Peterson
+
 The book presents 12 rules to follow to keep your life in control through the chaos that is called life. 
 This is the second time that I am reading this. I lost interest in JP's work after reading a lot of horrible things about him. Why am I re-reading this book now? 
 
