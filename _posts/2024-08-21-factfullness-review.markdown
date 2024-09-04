@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Factfulness by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund
+title: Factfulness Why Things Are Better Than You Think
 subtitle: Book review, 1st read
 categories: book-review
 banner:
