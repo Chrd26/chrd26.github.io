@@ -15,7 +15,7 @@ top: 1
 sidebar: []
 ---
 
-# What is MotionMedia?
+## What is MotionMedia?
 
 MotionMedia is a command line application made with C++ for the Raspberry Pi. The program will use the connected camera module to detect
 people and a screen to display a video if there are people within the camera's field of view. There's isn't much yet but I hope I will be able to

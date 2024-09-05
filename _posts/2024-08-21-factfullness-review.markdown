@@ -16,7 +16,7 @@ top: 1
 sidebar: []
 ---
 
-# Factfulness - Ten Reasons We're Wrong About the World is a book written by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund 
+## Factfulness - Ten Reasons We're Wrong About the World is a book written by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund 
 Factfulness is all about knowing the difference between dramatic narrative and actual facts. 
 Everyone gets bombarded with bad news every day making our world seem to keep getting worse. 
 The authors present 10 steps to stay open-minded avoid excessive negativity and search for the real facts. 

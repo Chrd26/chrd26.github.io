@@ -15,7 +15,7 @@ tags: books review
 top: 1
 sidebar: []
 ---
-
+3
 # 12 Rules for Lofe: An antitode to Chaos by Jordan B. Peterson
 
 The book presents 12 rules to follow to keep your life in control through the chaos that is called life. 

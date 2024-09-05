@@ -15,7 +15,7 @@ tags: books review
 top: 1
 sidebar: []
 ---
-# Myth of Normal by Dr. Gabor Maté
+## Myth of Normal by Dr. Gabor Maté
 
 The book presents a research on how trauma and stress have long term effects on both mental and physical health. The appearance of autoimmune illnesses, cancer, and ADHD have perceptibly risen affecting a significant portion of the population and medical scientists have been unable to discover the cause
 
